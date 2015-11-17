@@ -1,0 +1,99 @@
+<%-- 
+    Document   : MenuProfessor
+    Created on : 03/10/2015, 22:47:42
+    Author     : Bianca
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title>Power Quest</title>
+        <meta name="description" content="website description" />
+        <meta name="keywords" content="website keywords, website keywords" />
+        <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+        <link rel="stylesheet" type="text/css" href="stylePowerQuest.css" />
+        <!-- modernizr enables HTML5 elements and feature detects -->
+
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div id="main">
+
+                <header>
+                    <nav>
+                        <div id="menubar">
+                            <ul id="nav">
+                                <li class="current"><a href="CadastroProfessor.jsp">Cadastro Professor</a></li>
+                                <li class="current"><a href="CadastroAluno.jsp">Cadastro Aluno</a></li>
+                                <li class="current"><a href="contact.html">Login Professor</a></li>
+                                <li class="current"><a href="ExcluirProf.jsp">Excluir Conta</a></li>
+                                <li class="current"><a href="LoginAluno.jsp">Login Aluno</a></li>
+                                <li class="current"><a href="Questionario.jsp">Questionário</a></li>
+                            </ul>
+                        </div>
+                        <!--close menubar-->
+                    </nav>
+                    <div id="strapline">
+                        <div id="welcome_slogan">
+                            <h3>Power<span>Quest</span></h3>
+                        </div>
+                        <!--close welcome_slogan-->
+                    </div>
+                    <!--close strapline-->
+                </header>
+
+                <div id="site_content">
+                    <div id="prof">
+                        Menu do Professor
+                    </div>
+                    <div id="cadastro_prof">
+                        <table>
+                            <tr>
+                                <td>
+                                    <li class="current"><a href="CadastroDisciplina.jsp">Cadastro de Disciplinas</a></li>
+                                </td>
+                            </tr>
+                            <br />
+                            <tr>
+                                <td>
+                                    <li class="current"><a href="CadastroConteudo.jsp">Cadastro de Conteúdos</a></li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="current"><a href="CadastroPergunta.jsp">Cadastro de Perguntas</a></li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="current"><a href="ExcluirDisciplina.jsp">Excluir Disciplina</a></li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="current"><a href="ExcluirConteudo.jsp">Excluir Conteúdo</a></li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="current"><a href="ExcluirPergunta.jsp">Excluir Pergunta</a></li>
+                                </td>
+                            </tr>
+                            <br />
+                        </table>
+                        <!-- <asp:GridView ID="GridView1" runat="server">
+                         </asp:GridView>-->
+                    </div>
+                </div>
+                <!--close site_content-->
+                <footer>
+                    <a href="index.html">Home</a>  <a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+                    <br />
+                    <br />
+                </footer>
+            </div>
+            <!--close main-->
+        </form>
+    </body>
+</html>
