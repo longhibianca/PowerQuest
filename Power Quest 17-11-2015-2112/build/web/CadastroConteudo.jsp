@@ -27,7 +27,7 @@
                                 <li class="current"><a href="CadastroProfessor.jsp">Cadastro Professor</a></li>
                                 <li class="current"><a href="CadastroAluno.jsp">Cadastro Aluno</a></li>
                                 <li class="current"><a href="Login.jsp">Login Professor</a></li>
-                                <li class="current"><a href="contact.html">Excluir Conta</a></li>
+                                <li class="current"><a href="ExcluirConta.jsp">Excluir Conta</a></li>
                                 <li class="current"><a href="LoginAluno.jsp">Login Aluno</a></li>
                                 <li class="current"><a href="Questionario.jsp">Questionário</a></li>
                             </ul>
@@ -71,6 +71,11 @@
                                     Código disciplina:
                                 </td>
                                 <td>
+                                   <!-- <select name="lala">
+                                        <option></option>
+                                        <option></option>
+                                        <option></option>
+                                    </select>-->
                                     <input type="text" name="cod_disciplina" value="" />
                                 </td>
                             </tr>

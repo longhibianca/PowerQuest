@@ -46,43 +46,10 @@
                 <div id="site_content">
                     <div id="prof">
                         Excluir Conta/
-                        Pagina em Costrução
-                    </div>
-                    <div id="cadastro_prof">
-                        <table>
-                            <tr>
-                                <td>
-                                    
-                                </td>
-                                <td>
-                                    <input type="text" name="matricula" value="" />
-                                </td>
-                            </tr>
-                            <br />
-                            <tr>
-                                <td>
-                                    
-                                </td>
-                                <td>
-                                    <input type="password" name="senha_aluno" value="" />
-                                </td>
-                            </tr>
-                            <br />
-                        </table>
-                        <br />
-                        <input type="submit" value="Entrar" name="Enviar" />
-                        <br />
+                        Pagina em Construção
                     </div>
                 </div>
                 <!--close site_content-->
-
-                <footer>
-                    <a href="index.html">Home</a>  <a href=""></a><a href=""></a><a href=""></a><a href=""></a>
-                    <br />
-                    <br />
-
-                </footer>
-
             </div>
             <!--close main-->
 
