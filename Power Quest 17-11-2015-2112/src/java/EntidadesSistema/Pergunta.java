@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EntidadesSistema;
+/*package EntidadesSistema;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  *
  * @author Bianca
  */
-public class Pergunta implements Serializable {
+/*public class Pergunta implements Serializable {
     private static final long serialVersionUID = 1L;
     
     private String enunciado;
@@ -37,140 +37,140 @@ public class Pergunta implements Serializable {
     /**
      * @return the enunciado
      */
-    public String getEnunciado() {
+   /* public String getEnunciado() {
         return enunciado;
     }
 
     /**
      * @param enunciado the enunciado to set
      */
-    public void setEnunciado(String enunciado) {
+    /*public void setEnunciado(String enunciado) {
         this.enunciado = enunciado;
     }
 
     /**
      * @return the alternativa_a
      */
-    public String getAlternativa_a() {
+    /*public String getAlternativa_a() {
         return alternativa_a;
     }
 
     /**
      * @param alternativa_a the alternativa_a to set
      */
-    public void setAlternativa_a(String alternativa_a) {
+   /* public void setAlternativa_a(String alternativa_a) {
         this.alternativa_a = alternativa_a;
     }
 
     /**
      * @return the alternativa_b
      */
-    public String getAlternativa_b() {
+    /*public String getAlternativa_b() {
         return alternativa_b;
     }
 
     /**
      * @param alternativa_b the alternativa_b to set
      */
-    public void setAlternativa_b(String alternativa_b) {
+    /*public void setAlternativa_b(String alternativa_b) {
         this.alternativa_b = alternativa_b;
     }
 
     /**
      * @return the alternativa_c
      */
-    public String getAlternativa_c() {
+    /*public String getAlternativa_c() {
         return alternativa_c;
     }
 
     /**
      * @param alternativa_c the alternativa_c to set
      */
-    public void setAlternativa_c(String alternativa_c) {
+   /* public void setAlternativa_c(String alternativa_c) {
         this.alternativa_c = alternativa_c;
     }
 
     /**
      * @return the alternativa_d
      */
-    public String getAlternativa_d() {
+    /*public String getAlternativa_d() {
         return alternativa_d;
     }
 
     /**
      * @param alternativa_d the alternativa_d to set
      */
-    public void setAlternativa_d(String alternativa_d) {
+    /*public void setAlternativa_d(String alternativa_d) {
         this.alternativa_d = alternativa_d;
     }
 
     /**
      * @return the alternativa_e
      */
-    public String getAlternativa_e() {
+   /* public String getAlternativa_e() {
         return alternativa_e;
     }
 
     /**
      * @param alternativa_e the alternativa_e to set
      */
-    public void setAlternativa_e(String alternativa_e) {
+    /*public void setAlternativa_e(String alternativa_e) {
         this.alternativa_e = alternativa_e;
     }
 
     /**
      * @return the resp_correta
      */
-    public String getResp_correta() {
+    /*public String getResp_correta() {
         return resp_correta;
     }
 
     /**
      * @param resp_correta the resp_correta to set
      */
-    public void setResp_correta(String resp_correta) {
+    /*public void setResp_correta(String resp_correta) {
         this.resp_correta = resp_correta;
     }
 
     /**
      * @return the cod_perg
      */
-    public int getCod_perg() {
+    /*public int getCod_perg() {
         return cod_perg;
     }
 
     /**
      * @param cod_perg the cod_perg to set
      */
-    public void setCod_perg(int cod_perg) {
+    /*public void setCod_perg(int cod_perg) {
         this.cod_perg = cod_perg;
     }
 
     /**
      * @return the codigo_conteudo
      */
-    public int getCodigo_conteudo() {
+   /* public int getCodigo_conteudo() {
         return codigo_conteudo;
     }
 
     /**
      * @param codigo_conteudo the codigo_conteudo to set
      */
-    public void setCodigo_conteudo(int codigo_conteudo) {
+  /*  public void setCodigo_conteudo(int codigo_conteudo) {
         this.codigo_conteudo = codigo_conteudo;
     }
 
     /**
      * @return the cod_disciplina
      */
-    public int getCod_disciplina() {
+   /* public int getCod_disciplina() {
         return cod_disciplina;
     }
 
     /**
      * @param cod_disciplina the cod_disciplina to set
      */
-    public void setCod_disciplina(int cod_disciplina) {
+   /* public void setCod_disciplina(int cod_disciplina) {
         this.cod_disciplina = cod_disciplina;
     }
     
@@ -242,3 +242,4 @@ public class Pergunta implements Serializable {
         }
     }
 }
+*/

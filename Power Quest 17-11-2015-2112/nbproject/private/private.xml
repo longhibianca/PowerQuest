@@ -3,7 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Bianca/Documents/NetBeansProjects/Power%20Quest%2017-11-2015-2112/src/java/Servelets/CadastroProfessor.java</file>
+            <file>file:/C:/Users/Bianca/Documents/GitHub/PowerQuest/Power%20Quest%2017-11-2015-2112/src/java/EntidadesSistema/Professor.java</file>
+            <file>file:/C:/Users/Bianca/Documents/GitHub/PowerQuest/Power%20Quest%2017-11-2015-2112/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/Bianca/Documents/GitHub/PowerQuest/Power%20Quest%2017-11-2015-2112/src/java/EntidadesSistema/HibernateUtil.java</file>
+            <file>file:/C:/Users/Bianca/Documents/GitHub/PowerQuest/Power%20Quest%2017-11-2015-2112/src/java/Servelets/CadastroProfessor.java</file>
         </group>
     </open-files>
 </project-private>

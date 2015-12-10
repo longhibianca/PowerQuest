@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EntidadesSistema;
+/*package EntidadesSistema;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -18,7 +18,7 @@ import java.sql.SQLException;
  *
  * @author Bianca
  */
-public class AlunoDAO extends ConectarBanco {
+/*public class AlunoDAO extends ConectarBanco {
     
     public void inserir(Aluno aluno)
     {
@@ -130,3 +130,4 @@ public class AlunoDAO extends ConectarBanco {
     }
     
 }
+*/

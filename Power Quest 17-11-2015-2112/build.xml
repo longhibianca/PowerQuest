@@ -7,9 +7,13 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="Power_Quest-17-11-2015-2112" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Power Quest-17-11-2015-2112.</description>
+<project name="Power_Quest-04-12-2015-1849" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Power Quest-04-12-2015-1849.</description>
     <import file="nbproject/build-impl.xml"/>
+        <target name="-post-dist">
+            <copy file="${dist.war}" overwrite="true" todir="${wildfly.deploy}" />
+        </target>
+
     <!--
 
     There exist several targets which are by default empty and which can be 

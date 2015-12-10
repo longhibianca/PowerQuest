@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EntidadesSistema;
+/*package EntidadesSistema;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
@@ -19,7 +19,7 @@ import java.util.logging.Logger;
  *
  * @author Bianca
  */
-public class Conteudo implements Serializable {
+/*public class Conteudo implements Serializable {
     private static final long serialVersionUID = 1L;
     
     private int codigo_conteudo;
@@ -30,56 +30,55 @@ public class Conteudo implements Serializable {
     /**
      * @return the codigo_conteudo
      */
-    public int getCodigo_conteudo() {
-        return codigo_conteudo;
+   /*     return codigo_conteudo;
     }
 
     /**
      * @param codigo_conteudo the codigo_conteudo to set
      */
-    public void setCodigo_conteudo(int codigo_conteudo) {
+    /*public void setCodigo_conteudo(int codigo_conteudo) {
         this.codigo_conteudo = codigo_conteudo;
     }
 
     /**
      * @return the conteudo_nome
      */
-    public String getConteudo_nome() {
+    /*public String getConteudo_nome() {
         return conteudo_nome;
     }
 
     /**
      * @param conteudo_nome the conteudo_nome to set
      */
-    public void setConteudo_nome(String conteudo_nome) {
+    /*public void setConteudo_nome(String conteudo_nome) {
         this.conteudo_nome = conteudo_nome;
     }
 
     /**
      * @return the cod_disciplina
      */
-    public int getCod_disciplina() {
+   /* public int getCod_disciplina() {
         return cod_disciplina;
     }
 
     /**
      * @param cod_disciplina the cod_disciplina to set
      */
-    public void setCod_disciplina(int cod_disciplina) {
+   /* public void setCod_disciplina(int cod_disciplina) {
         this.cod_disciplina = cod_disciplina;
     }
 
     /**
      * @return the siape
      */
-    public String getSiape() {
+    /*public String getSiape() {
         return siape;
     }
 
     /**
      * @param siape the siape to set
      */
-    public void setSiape(String siape) {
+   /* public void setSiape(String siape) {
         this.siape = siape;
     }
     public Conteudo(String conteudo_nome)
@@ -139,3 +138,4 @@ public class Conteudo implements Serializable {
         }
     }
 }
+*/

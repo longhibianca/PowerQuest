@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Servelets;
+//package Servelets;
 
 /**
  *
  * @author Bianca
  */
-import java.io.IOException;
+/*import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -23,7 +23,7 @@ import EntidadesSistema.PerguntaDAO;
  *
  * @author Bianca
  */
-@WebServlet(name = "ExcluirPergunta", urlPatterns = {"/ExcluirPergunta"})
+/*@WebServlet(name = "ExcluirPergunta", urlPatterns = {"/ExcluirPergunta"})
 public class ExcluirPergunta extends HttpServlet
 {
     /**
@@ -35,7 +35,7 @@ public class ExcluirPergunta extends HttpServlet
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException
+   /* protected void processRequest(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException
     {
         Pergunta pergunta = new Pergunta();
 
@@ -60,7 +60,7 @@ public class ExcluirPergunta extends HttpServlet
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    @Override
+   /* @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
@@ -74,7 +74,7 @@ public class ExcluirPergunta extends HttpServlet
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    @Override
+  /*  @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
@@ -85,8 +85,8 @@ public class ExcluirPergunta extends HttpServlet
      *
      * @return a String containing servlet description
      */
-    @Override
+  /*  @Override
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-}
+}*/

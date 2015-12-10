@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Servelets;
+/*package Servelets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -19,7 +19,7 @@ import EntidadesSistema.PerguntaDAO;
  *
  * @author Bianca
  */
-@WebServlet(name = "CadastroPergunta", urlPatterns = {"/CadastroPergunta"})
+/*@WebServlet(name = "CadastroPergunta", urlPatterns = {"/CadastroPergunta"})
 public class CadastroPergunta extends HttpServlet{
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException
     {
@@ -58,7 +58,7 @@ public class CadastroPergunta extends HttpServlet{
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    @Override
+    /*@Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
@@ -72,7 +72,7 @@ public class CadastroPergunta extends HttpServlet{
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    @Override
+   /* @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
@@ -83,10 +83,11 @@ public class CadastroPergunta extends HttpServlet{
      *
      * @return a String containing servlet description
      */
-    @Override
+    /*@Override
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
 
     
 }
+*/

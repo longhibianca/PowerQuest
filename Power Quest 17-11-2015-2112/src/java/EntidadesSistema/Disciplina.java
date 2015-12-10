@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EntidadesSistema;
+/*package EntidadesSistema;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
@@ -19,7 +19,7 @@ import java.util.logging.Logger;
  *
  * @author Bianca
  */
-public class Disciplina implements Serializable {
+/*public class Disciplina implements Serializable {
     private static final long serialVersionUID = 1L;
     
     private String nome_disciplina;
@@ -29,42 +29,42 @@ public class Disciplina implements Serializable {
     /**
      * @return the nome_disciplina
      */
-    public String getNome_disciplina() {
+    /*public String getNome_disciplina() {
         return nome_disciplina;
     }
 
     /**
      * @param nome_disciplina the nome_disciplina to set
      */
-    public void setNome_disciplina(String nome_disciplina) {
+    /*public void setNome_disciplina(String nome_disciplina) {
         this.nome_disciplina = nome_disciplina;
     }
 
     /**
      * @return the cod_disciplina
      */
-    public int getCod_disciplina() {
+  /* public int getCod_disciplina() {
         return cod_disciplina;
     }
 
     /**
      * @param cod_disciplina the cod_disciplina to set
      */
-    public void setCod_disciplina(int cod_disciplina) {
+   /* public void setCod_disciplina(int cod_disciplina) {
         this.cod_disciplina = cod_disciplina;
     }
 
     /**
      * @return the siape
      */
-    public String getSiape() {
+    /*public String getSiape() {
         return siape;
     }
 
     /**
      * @param siape the siape to set
      */
-    public void setSiape(String siape) {
+   /* public void setSiape(String siape) {
         this.siape = siape;
     }
     
@@ -129,6 +129,6 @@ public class Disciplina implements Serializable {
 
    /* public void SalvarDisciplina() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }*/
+    }
     
-}
+}*/
