@@ -15,5 +15,6 @@
     <property name="c3po.max_statements">50</property>
     <property name="c3po.idle_test_period">3000</property>
     <mapping class="hibernatePersistence.professor.Professor"/>
+    <mapping class="hibernatePersistence.aluno.Usuario"/>
   </session-factory>
 </hibernate-configuration>

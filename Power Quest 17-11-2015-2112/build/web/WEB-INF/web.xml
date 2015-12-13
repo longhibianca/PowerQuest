@@ -8,6 +8,14 @@
         <servlet-name>OperacoesProfessor</servlet-name>
         <servlet-class>hibernatePersistence.conexao.OperacoesProfessor</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CadastroAluno</servlet-name>
+        <servlet-class>hibernatePersistence.aluno.CadastroAluno</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OperacoesAluno</servlet-name>
+        <servlet-class>hibernatePersistence.conexao.OperacoesAluno</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CadastroProfessor</servlet-name>
         <url-pattern>/CadastroProfessor</url-pattern>
@@ -15,6 +23,14 @@
     <servlet-mapping>
         <servlet-name>OperacoesProfessor</servlet-name>
         <url-pattern>/OperacoesProfessor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastroAluno</servlet-name>
+        <url-pattern>/CadastroAluno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OperacoesAluno</servlet-name>
+        <url-pattern>/OperacoesAluno</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

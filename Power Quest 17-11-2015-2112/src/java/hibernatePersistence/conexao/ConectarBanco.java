@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package hibernatePersistence.conexao;
-//import EntidadesSistema.HibernateUtil;
+
 import hibernatePersistence.util.HibernateUtil;
 import org.hibernate.Session;
 

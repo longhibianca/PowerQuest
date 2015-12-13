@@ -12,7 +12,7 @@
 
     </head>
     <body>
-        <form method="post" action="CadastroAluno">
+        <form method="post" action="OperacoesAluno">
             <div id="main">
 
                 <header>
