@@ -13,13 +13,11 @@ import org.hibernate.Session;
  * @author Bianca
  */
 public class ConectarBanco {
-    public static void main(String[] args) { 
-        Session sessao = null;
-        try{
-            sessao = HibernateUtil.getSessionFactory().openSession();
-            System.out.println("Conectou!");
-            } finally { 
-             sessao.close(); 
-        }
+
+    public static Session porFavor() {
+        Session sessao = HibernateUtil.getSessionFactory().openSession();
+        System.out.println("Conectou!");
+        return sessao;
+
     }
 }

@@ -7,14 +7,7 @@ package hibernatePersistence.professor;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
-
-import java.util.Date;
 import javax.persistence.Id;
-
-import hibernatePersistence.conexao.ConectarBanco;
-import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -54,6 +47,7 @@ public class Professor implements Serializable {
     public final void setCpf(String value) {
         cpf = value;
     }
+    
     @Id
     private String siape;
 

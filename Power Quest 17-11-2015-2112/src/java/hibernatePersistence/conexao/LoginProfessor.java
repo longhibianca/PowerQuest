@@ -1,4 +1,4 @@
-/*package Servelets;
+package hibernatePersistence.conexao;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import EntidadesSistema.Professor;
-import EntidadesSistema.ProfessorDAO;
-import EntidadesSistema.ConectarBanco;
+import hibernatePersistence.professor.Professor;
+import hibernatePersistence.professor.ProfessorDAO;
+import hibernatePersistence.conexao.ConectarBanco;
 
 @WebServlet(name = "LoginProfessor", urlPatterns = {"/LoginProfessor"})
 public class LoginProfessor extends HttpServlet
@@ -28,11 +28,13 @@ public class LoginProfessor extends HttpServlet
         Professor user = null;
         String siape = request.getParameter("txtSiape"); // Pega o Login vindo do formulario
         String senha = request.getParameter("txtSenha"); //Pega a senha vinda do formulario
-
+        System.out.println(siape);
+        System.out.println(senha);
         try
         {
             ProfessorDAO dao = new ProfessorDAO(); //cria uma instancia do DAO usuario
             user = dao.getProfessor(siape, senha);
+            System.out.println("entrei no dao do login");
         }
         catch (Exception e)
         {
@@ -54,4 +56,3 @@ public class LoginProfessor extends HttpServlet
         }
     }
 }
-*/

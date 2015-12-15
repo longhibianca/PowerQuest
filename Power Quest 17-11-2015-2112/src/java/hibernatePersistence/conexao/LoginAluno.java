@@ -1,4 +1,4 @@
-/*package Servelets;
+package hibernatePersistence.conexao;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import EntidadesSistema.Aluno;
-import EntidadesSistema.AlunoDAO;
-import EntidadesSistema.ConectarBanco;
+import hibernatePersistence.aluno.Usuario;
+import hibernatePersistence.aluno.AlunoDAO;
+import hibernatePersistence.conexao.ConectarBanco;
 
 @WebServlet(name = "LoginAluno", urlPatterns = {"/LoginAluno"})
 public class LoginAluno extends HttpServlet
@@ -25,14 +25,14 @@ public class LoginAluno extends HttpServlet
 
         HttpSession session = request.getSession(); //obtem a sessao do usuario, caso exista
 
-        Aluno user = null;
+        Usuario user = null;
         String matricula = request.getParameter("matricula"); // Pega o Login vindo do formulario
         String senha_aluno = request.getParameter("senha_aluno"); //Pega a senha vinda do formulario
 
         try
         {
             AlunoDAO dao = new AlunoDAO(); //cria uma instancia do DAO usuario
-            user = dao.getAluno(matricula, senha_aluno);
+            user = dao.getUsuario(matricula, senha_aluno);
         }
         catch (Exception e)
         {
@@ -44,7 +44,7 @@ public class LoginAluno extends HttpServlet
         {
             //se o dao retornar um usuario, coloca o mesmo na sessao
             session.setAttribute("user", user);
-            request.getRequestDispatcher("MenuProfessor.jsp").forward(request, response);
+            request.getRequestDispatcher("Questionario.jsp").forward(request, response);
         }
         else
         {
@@ -54,4 +54,3 @@ public class LoginAluno extends HttpServlet
         }
     }
 }
-*/
