@@ -5,6 +5,10 @@
         <servlet-class>hibernatePersistence.professor.CadastroProfessor</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>CadastroDisciplina</servlet-name>
+        <servlet-class>hibernatePersistence.disciplina.CadastroDisciplina</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>OperacoesProfessor</servlet-name>
         <servlet-class>hibernatePersistence.conexao.OperacoesProfessor</servlet-class>
     </servlet>
@@ -24,9 +28,17 @@
         <servlet-name>LoginAluno</servlet-name>
         <servlet-class>hibernatePersistence.conexao.LoginAluno</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>OperacoesDisciplina</servlet-name>
+        <servlet-class>hibernatePersistence.conexao.OperacoesDisciplina</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CadastroProfessor</servlet-name>
         <url-pattern>/CadastroProfessor</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+        <servlet-name>CadastroDisciplina</servlet-name>
+        <url-pattern>/CadastroDisciplina</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>LoginProfessor</servlet-name>
@@ -47,6 +59,10 @@
     <servlet-mapping>
         <servlet-name>OperacoesAluno</servlet-name>
         <url-pattern>/OperacoesAluno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OperacoesDisciplina</servlet-name>
+        <url-pattern>/OperacoesDisciplina</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

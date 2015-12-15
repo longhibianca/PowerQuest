@@ -16,5 +16,6 @@
     <property name="c3po.idle_test_period">3000</property>
     <mapping class="hibernatePersistence.professor.Professor"/>
     <mapping class="hibernatePersistence.aluno.Usuario"/>
+    <mapping class="hibernatePersistence.disciplina.Disciplina"/>
   </session-factory>
 </hibernate-configuration>
