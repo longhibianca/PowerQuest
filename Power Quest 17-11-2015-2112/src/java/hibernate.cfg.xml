@@ -17,5 +17,6 @@
     <mapping class="hibernatePersistence.professor.Professor"/>
     <mapping class="hibernatePersistence.aluno.Usuario"/>
     <mapping class="hibernatePersistence.disciplina.Disciplina"/>
+    <mapping class="hibernatePersistence.conteudo.Conteudo"/>
   </session-factory>
 </hibernate-configuration>

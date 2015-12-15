@@ -3,44 +3,51 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*package Servelets;
+package hibernatePersistence.conexao;
 
+import hibernatePersistence.conteudo.Conteudo;
+import hibernatePersistence.conteudo.ConteudoDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import EntidadesSistema.Conteudo;
-import EntidadesSistema.ConteudoDAO;
 /**
  *
  * @author Bianca
  */
-/*@WebServlet(name = "CadastroConteudo", urlPatterns = {"/CadastroConteudo"})
-public class CadastroConteudo extends HttpServlet{
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException
-    {
-        Conteudo conteudo = new Conteudo();
+public class OperacoesConteudo extends HttpServlet {
 
-       // conteudo.setNome_disciplina(request.getParameter("nome_disciplina"));
+    /**
+     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * methods.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        
+        ConteudoDAO conteudoHibernateDAO = new ConteudoDAO();
+          Conteudo conteudo = new Conteudo();
+
           conteudo.setCodigo_conteudo(Integer.parseInt(request.getParameter("codigo_conteudo")));
           conteudo.setConteudo_nome(request.getParameter("conteudo_nome"));
           conteudo.setCod_disciplina(Integer.parseInt(request.getParameter("cod_disciplina")));
-      //  aluno.setSenha_aluno(request.getParameter("senha_aluno"));
-
-        conteudo.SalvarConteudo();
-        ConteudoDAO dao = new ConteudoDAO();
+          
+          conteudoHibernateDAO.salvar(conteudo);
         
+                response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();  
         response.setContentType("text/html");  
         out.println("<script type=\"text/javascript\">");  
-        out.println("alert('O cadastro do conteúdo foi realizado com sucesso :D');"); 
+        out.println("alert('O cadastro da disciplina foi realizado com sucesso :D');"); 
         out.println("location='MenuProfessor.jsp';");
-        out.println("</script>");
-       // response.sendRedirect("MenuProfessor.jsp");//TROCAR PARA OUTRA PAGINA!!!
+        out.println("</script>");   
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -52,7 +59,7 @@ public class CadastroConteudo extends HttpServlet{
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-   /* @Override
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
@@ -66,7 +73,7 @@ public class CadastroConteudo extends HttpServlet{
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-  /*  @Override
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
@@ -77,11 +84,9 @@ public class CadastroConteudo extends HttpServlet{
      *
      * @return a String containing servlet description
      */
-   /* @Override
+    @Override
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
 
-    
 }
-*/

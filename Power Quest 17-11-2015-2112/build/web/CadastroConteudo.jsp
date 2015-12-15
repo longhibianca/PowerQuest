@@ -17,7 +17,7 @@
 
     </head>
     <body>
-        <form method="post" action="CadastroConteudo">
+        <form method="post" action="OperacoesConteudo">
             <div id="main">
 
                 <header>
