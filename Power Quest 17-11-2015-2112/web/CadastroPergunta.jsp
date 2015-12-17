@@ -17,7 +17,7 @@
 
     </head>
     <body>
-        <form method="post" action="CadastroPergunta">
+        <form method="post" action="OperacoesPergunta">
             <div id="main">
 
                 <header>

@@ -21,6 +21,10 @@
         <servlet-class>hibernatePersistence.conteudo.CadastroConteudo</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>CadastroPergunta</servlet-name>
+        <servlet-class>hibernatePersistence.pergunta.CadastroPergunta</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>OperacoesAluno</servlet-name>
         <servlet-class>hibernatePersistence.conexao.OperacoesAluno</servlet-class>
     </servlet>
@@ -40,6 +44,10 @@
         <servlet-name>OperacoesConteudo</servlet-name>
         <servlet-class>hibernatePersistence.conexao.OperacoesConteudo</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>OperacoesPergunta</servlet-name>
+        <servlet-class>hibernatePersistence.conexao.OperacoesPergunta</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CadastroProfessor</servlet-name>
         <url-pattern>/CadastroProfessor</url-pattern>
@@ -51,6 +59,10 @@
     <servlet-mapping>
         <servlet-name>CadastroConteudo</servlet-name>
         <url-pattern>/CadastroConteudo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastroPergunta</servlet-name>
+        <url-pattern>/CadastroPergunta</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>LoginProfessor</servlet-name>
@@ -79,6 +91,10 @@
     <servlet-mapping>
         <servlet-name>OperacoesConteudo</servlet-name>
         <url-pattern>/OperacoesConteudo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OperacoesPergunta</servlet-name>
+        <url-pattern>/OperacoesPergunta</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

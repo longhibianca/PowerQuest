@@ -18,5 +18,6 @@
     <mapping class="hibernatePersistence.aluno.Usuario"/>
     <mapping class="hibernatePersistence.disciplina.Disciplina"/>
     <mapping class="hibernatePersistence.conteudo.Conteudo"/>
+    <mapping class="hibernatePersistence.pergunta.Pergunta"/>
   </session-factory>
 </hibernate-configuration>

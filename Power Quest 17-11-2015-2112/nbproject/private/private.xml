@@ -2,12 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/Bianca/Documents/GitHub/PowerQuest/Power%20Quest%2017-11-2015-2112/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/Bianca/Documents/GitHub/PowerQuest/Power%20Quest%2017-11-2015-2112/src/java/hibernatePersistence/conexao/LoginProfessor.java</file>
-            <file>file:/C:/Users/Bianca/Documents/GitHub/PowerQuest/Power%20Quest%2017-11-2015-2112/src/java/hibernatePersistence/professor/ProfessorDAO.java</file>
-            <file>file:/C:/Users/Bianca/Documents/GitHub/PowerQuest/Power%20Quest%2017-11-2015-2112/src/java/hibernatePersistence/conexao/ConectarBanco.java</file>
-            <file>file:/C:/Users/Bianca/Documents/GitHub/PowerQuest/Power%20Quest%2017-11-2015-2112/src/java/hibernatePersistence/util/HibernateUtil.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
