@@ -6,94 +6,49 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head id="Head1" runat="server">
-        <title>Power Quest</title>
-        <meta name="description" content="website description" />
-        <meta name="keywords" content="website keywords, website keywords" />
-        <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-        <link rel="stylesheet" type="text/css" href="stylePowerQuest.css" />
-        <!-- modernizr enables HTML5 elements and feature detects -->
-
+<html>
+    <head>
+        <title>PowerQuest Menu Professor</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     </head>
     <body>
         <form id="form1" runat="server">
-            <div id="main">
-
-                <header>
-                    <nav>
-                        <div id="menubar">
-                            <ul id="nav">
-                                <li class="current"><a href="CadastroProfessor.jsp">Cadastro Professor</a></li>
-                                <li class="current"><a href="CadastroAluno.jsp">Cadastro Aluno</a></li>
-                                <li class="current"><a href="contact.html">Login Professor</a></li>
-                                <li class="current"><a href="ExcluirConta.jsp">Excluir Conta</a></li>
-                                <li class="current"><a href="LoginAluno.jsp">Login Aluno</a></li>
-                                <li class="current"><a href="Questionario.jsp">Questionário</a></li>
-                            </ul>
-                        </div>
-                        <!--close menubar-->
-                    </nav>
-                    <div id="strapline">
-                        <div id="welcome_slogan">
-                            <h3>Power<span>Quest</span></h3>
-                        </div>
-                        <!--close welcome_slogan-->
-                    </div>
-                    <!--close strapline-->
-                </header>
-
-                <div id="site_content">
-                    <div id="prof">
-                        Menu do Professor
-                    </div>
-                    <div id="cadastro_prof">
-                        <table>
-                            <tr>
-                                <td>
-                                    <li class="current"><a href="CadastroDisciplina.jsp">Cadastro de Disciplinas</a></li>
-                                </td>
-                            </tr>
-                            <br />
-                            <tr>
-                                <td>
-                                    <li class="current"><a href="CadastroConteudo.jsp">Cadastro de Conteúdos</a></li>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <li class="current"><a href="CadastroPergunta.jsp">Cadastro de Perguntas</a></li>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <li class="current"><a href="ExcluirDisciplina.jsp">Excluir Disciplina</a></li>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <li class="current"><a href="ExcluirConteudo.jsp">Excluir Conteúdo</a></li>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <li class="current"><a href="ExcluirPergunta.jsp">Excluir Pergunta</a></li>
-                                </td>
-                            </tr>
-                            <br />
-                        </table>
-                        <!-- <asp:GridView ID="GridView1" runat="server">
-                         </asp:GridView>-->
-                    </div>
+            <header id="header">
+                <h1><a href="PaginaInicial.jsp">PowerQuest</a></h1>
+                <a href="#nav">Menu</a>
+            </header>
+            <!-- nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="CadastroDisciplina.jsp">Cadastro de disciplinas</a></li>
+                    <li><a href="CadastroConteudo.jsp">Cadastro de conteúdos</a></li>
+                    <li><a href="CadastroPergunta.jsp">Cadastro de perguntas</a></li>
+                    <li><a href="ExcluirDisciplina.jsp">Excluir disciplina</a></li>
+                    <li><a href="ExcluirConteudo.jsp">Excluir conteúdo</a></li>
+                    <li><a href="ExcluirPergunta.jsp">Excluir pergunta</a></li>
+                </ul>
+            </nav>
+            <!-- Main -->
+            <section id="main" class="wrapper style1 special">
+                <!--  <section id="four" class="wrapper style2 special">-->
+                <div class="container">
+                    <header class="major special">
+                        <h2>Página do Professor</h2>
+                        <p>Página em construção</p>
+                    </header>
                 </div>
-                <!--close site_content-->
-                <footer>
-                    <a href="index.html">Home</a>  <a href=""></a><a href=""></a><a href=""></a><a href=""></a>
-                    <br />
-                    <br />
-                </footer>
-            </div>
-            <!--close main-->
+            </section>
+            <!-- Scripts -->
+            <script src="jquery.min.js"></script>
+            <script src="skel.min.js"></script>
+            <script src="util.js"></script>
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="main.js"></script>
         </form>
     </body>
 </html>

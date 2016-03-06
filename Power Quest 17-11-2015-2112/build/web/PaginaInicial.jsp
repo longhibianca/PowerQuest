@@ -6,117 +6,98 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head runat="server">
-        <title>Power Quest</title>
-        <meta name="description" content="website description" />
-        <meta name="keywords" content="website keywords, website keywords" />
-        <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-        <link rel="stylesheet" type="text/css" href="stylePowerQuest.css" />
-        <!-- modernizr enables HTML5 elements and feature detects -->
+<html>
+    <head>
+        <title>PowerQuest</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     </head>
-    <body>
+    <body class="landing">
         <form action="PagInicial.jsp">
-            <div id="main">
-                <header>
-                    <div id="menubar">
-                        <ul id="nav">
-                            <li class="current"><a href="CadastroProfessor.jsp">Cadastro Professor</a></li>
-                            <li class="current"><a href="CadastroAluno.jsp">Cadastro Aluno</a></li>
-                            <li class="current"><a href="Login.jsp">Login Professor</a></li>
-                            <li class="current"><a href="LoginAluno.jsp">Login Aluno</a></li>
-                            <li class="current"><a href="Questionario.jsp">Questionário</a></li>
-                        </ul>
-                    </div>
-                    <div id="strapline">
-                        <div id="welcome_slogan">
-                            <h3>Power<span>Quest</span></h3>
+            <!-- Header -->
+            <header id="header" class="alt">
+                <h1><a href="index.html">Bem-vindo(a)</a></h1>
+                <a href="#nav">
+                    Menu
+                </a>
+            </header>  
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="PaginaInicial.jsp">Home</a></li>
+                    <li><a href="CadastroProfessor.jsp">Cadastro</a></li>
+                </ul>
+            </nav>
+            <!-- Banner -->
+            <section id="banner">
+                <i class="icon fa-diamond"></i>
+                <h2>PowerQuest</h2>
+                <p>frase de efeito</p>
+                <ul class="actions">
+                    <li><a href="#" class="button big special">Login</a></li>
+                </ul>
+            </section>
+            <!-- One -->
+            <section id="one" class="wrapper style1">
+                <div class="inner">
+                    <article class="feature left">
+                        <span class="image"><img src="http://static.tumblr.com/v1nfa2x/ocMnizo7r/estudo.jpg" alt="" /></span>
+                        <div class="content">
+                            <h2> titulo do texto que temos q colocar</h2>
+                            <p>Texto q temos q colocar</p>
                         </div>
-                        <!--close welcome_slogan-->
-                    </div>
-                    <!--close strapline-->
-                </header>
+                    </article>
+                    <article class="feature right">
+                        <span class="image"><img src="https://ap.imagensbrasil.org/images/selecao_professores.jpg" alt=""></span>
+                        <div class="content">
+                            <h2>titulo sobre o texto de professores</h2>
+                            <p>Texto falando dos professores</p>
 
-                <div id="site_content">
-
-                    <div class="sidebar_container">
-                        <div class="sidebar">
-                            <div class="sidebar_item">
-                                <h2>Sobre</h2>
-                                <p>Bem-vindo ao Power Quest, um questionário online, contendo diversas disciplinas, e que te ajudará a estudar para provas e vestibulares.</p>
-                            </div>
-                            <!--close sidebar_item-->
                         </div>
-                        <!--close sidebar-->
-                        <div class="sidebar">
-                            <div class="sidebar_item">
-                                <h2></h2>
-                                <h3></h3>
-                                <p></p>
-                            </div>
-                            <!--close sidebar_item-->
-                        </div>
-                        <!--close sidebar-->
-                        <div class="sidebar">
-                            <div class="sidebar_item">
-                                <h3></h3>
-                                <p></p>
-                            </div>
-                            <!--close sidebar_item-->
-                        </div>
-                        <!--close sidebar-->
-                        <div class="sidebar">
-                            <div class="sidebar_item">
-                                <h3></h3>
-                                <p></p>
-                            </div>
-                            <!--close sidebar_item-->
-                        </div>
-                        <!--close sidebar-->
-                        <div class="sidebar">
-                            <div class="sidebar_item">
-                                <h2></h2>
-                                <p></p>
-                                <p></p>
-                            </div>
-                            <!--close sidebar_item-->
-                        </div>
-                        <!--close sidebar-->
-                    </div>
-                    <div class="slideshow">
-                        <ul class="slideshow">
-                            <li class="show">
-                                <img width="680" height="450" src="http://static.tumblr.com/v1nfa2x/ocMnizo7r/estudo.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-                            <li>
-                                <img width="680" height="450" src="images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-                        </ul>
-                    </div>
-
-                    <div id="content">
-                        <div class="content_item">
-                            <div class="form_settings">
-                                <h2></h2>
-                                <p style="padding-bottom: 15px;"></p>
-                                <p><span></span><input class="contact" type="text" name="your_name" value="" /></p>
-                                <p><span></span><input class="contact" type="text" name="your_email" value="" /></p>
-                                <p><span></span></p>
-                                <p style="padding: 10px 0 10px 0;"></p>
-                                <p><span></span><input type="text" name="user_answer" class="contact" /><input type="hidden" name="answer" value="4d76fe9775" /></p>
-                                <p style="padding-top: 15px"><span>&nbsp;</span></p>
-                            </div>
-                            <!--close form_settings-->
-                        </div>
-                        <!--close content_item-->
-                    </div>
-                    <!--close content-->
+                    </article>
                 </div>
-                <!--close site_content-->
-
-                <footer>
-                    <a href="index.html">Home</a>  <a href=""></a>  <a href=""></a>  <a href=""></a> <a href=""></a><br />
-                    <br />
-                </footer>
-            </div>
+            </section>
         </form>
-    </body>
+
+        <!-- Four -->
+        <section id="four" class="wrapper style2 special">
+            <div class="inner">
+                <header class="major narrow">
+                    <h2>Login</h2>
+                    <p>Faça seu login aqui</p>
+                </header>
+                <form method="post" action="LoginProfessor">
+                    <div class="container 75%">
+                        <div class="row uniform 50%">
+                            <div class="6u">
+                                <input name="txtSiape" placeholder="Identificador***" type="text" />
+                            </div>
+                            <div class="6u">
+                                <input name="txtSenha" placeholder="Senha" type="password" />
+                            </div>
+                        </div> 
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" class="special" value="Entrar" /></li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="inner">
+
+            </div>
+        </footer>
+        <!-- Scripts -->
+        <script src="jquery.min.js"></script>
+        <script src="skel.min.js"></script>
+        <script src="util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="main.js"></script>
+    </form>
+</body>
 </html>
