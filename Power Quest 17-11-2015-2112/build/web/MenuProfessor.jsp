@@ -31,6 +31,7 @@
                     <li><a href="ExcluirDisciplina.jsp">Excluir disciplina</a></li>
                     <li><a href="ExcluirConteudo.jsp">Excluir conteúdo</a></li>
                     <li><a href="ExcluirPergunta.jsp">Excluir pergunta</a></li>
+                    <li><a href="PaginaAluno.jsp">Página ALuno(só para teste)</a></li>
                 </ul>
             </nav>
             <!-- Main -->

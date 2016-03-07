@@ -1,6 +1,6 @@
 <%-- 
-    Document   : MenuProfessor
-    Created on : 03/10/2015, 22:47:42
+    Document   : PaginaAluno
+    Created on : 07/03/2016, 18:03:32
     Author     : Bianca
 --%>
 
@@ -24,22 +24,21 @@
             </header>
             <!-- nav -->
             <nav id="nav">
-                <ul class="links">
+              <!--  <ul class="links">
                     <li><a href="CadastroDisciplina.jsp">Cadastro de disciplinas</a></li>
                     <li><a href="CadastroConteudo.jsp">Cadastro de conteúdos</a></li>
                     <li><a href="CadastroPergunta.jsp">Cadastro de perguntas</a></li>
                     <li><a href="ExcluirDisciplina.jsp">Excluir disciplina</a></li>
                     <li><a href="ExcluirConteudo.jsp">Excluir conteúdo</a></li>
                     <li><a href="ExcluirPergunta.jsp">Excluir pergunta</a></li>
-                    <li><a href="PaginaAluno.jsp">Página ALuno(só para teste)</a></li>
-                </ul>
+                </ul>-->
             </nav>
             <!-- Main -->
             <section id="main" class="wrapper style1 special">
                 <!--  <section id="four" class="wrapper style2 special">-->
                 <div class="container">
                     <header class="major special">
-                        <h2>Página do Professor</h2>
+                        <h2>Página do Aluno</h2>
                         <p>Página em construção</p>
                     </header>
                 </div>
