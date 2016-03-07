@@ -6,103 +6,51 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head id="Head1" runat="server">
-        <title>Power Quest</title>
-        <meta name="description" content="website description" />
-        <meta name="keywords" content="website keywords, website keywords" />
-        <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-        <link rel="stylesheet" type="text/css" href="stylePowerQuest.css" />
-        <!-- modernizr enables HTML5 elements and feature detects -->
-
+<html>
+    <head>
+        <title>PowerQuest Cadastro Professor</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     </head>
     <body>
         <form method="post" action="OperacoesConteudo">
-            <div id="main">
-
-                <header>
-                    <nav>
-                        <div id="menubar">
-                            <ul id="nav">
-                                <li class="current"><a href="CadastroProfessor.jsp">Cadastro Professor</a></li>
-                                <li class="current"><a href="CadastroAluno.jsp">Cadastro Aluno</a></li>
-                                <li class="current"><a href="Login.jsp">Login Professor</a></li>
-                                <li class="current"><a href="ExcluirConta.jsp">Excluir Conta</a></li>
-                                <li class="current"><a href="LoginAluno.jsp">Login Aluno</a></li>
-                                <li class="current"><a href="Questionario.jsp">Questionário</a></li>
-                            </ul>
+            <header id="header">
+                <h1><a href="PaginaInicial.jsp">PowerQuest</a></h1>
+                <!--<a href="#nav">Menu</a>-->
+            </header>
+            <!-- Main -->
+            <section id="main" class="wrapper style1 special">
+         <!--  <section id="four" class="wrapper style2 special">-->
+               <div class="container">
+                    <header class="major special">
+                        <h2>Cadastre seu conteúdo</h2>
+      
+                    </header>
+                    <div class="inner">
+                        <div class="container 75%">
+                            <div class="row uniform 50%">
+                                <div class="6u">
+                                    <input name="codigo_conteudo" placeholder="Codigo Conteudo" type="text" />
+                                </div>
+                                <div class="6u">
+                                    <input name="conteudo_nome" placeholder="Nome" type="text" />
+                                </div>
+                                <div class="6u">
+                                    <input name="cod_disciplina" placeholder="Codigo Disciplina" type="text" />
+                                </div>
+                               
+                            </div> 
                         </div>
-                        <!--close menubar-->
-                    </nav>
-                    <div id="strapline">
-                        <div id="welcome_slogan">
-                            <h3>Power<span>Quest</span></h3>
-                        </div>
-                        <!--close welcome_slogan-->
-                    </div>
-                    <!--close strapline-->
-                </header>
-
-                <div id="site_content">
-                    <div id="prof">
-                        Cadastro de Conteúdos
-                    </div>
-                    <div id="cadastro_prof">
-                        <table>
-                            <tr>
-                                <td>
-                                    Código conteúdo:
-                                </td>
-                                <td>
-                                    <input type="text" name="codigo_conteudo" value="" />
-                                </td>
-                            </tr>
-                            <br />
-                            <tr>
-                                <td>
-                                    Conteúdo:
-                                </td>
-                                <td>
-                                    <input type="text" name="conteudo_nome" value="" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Código disciplina:
-                                </td>
-                                <td>
-                                   <!-- <select name="lala">
-                                        <option></option>
-                                        <option></option>
-                                        <option></option>
-                                    </select>-->
-                                    <input type="text" name="cod_disciplina" value="" />
-                                </td>
-                            </tr>
-                            <br />
-                        </table>
-                        <br />
-                        <input type="submit" value="Salvar" name="BotaoCadDisc" />
-                        <br />
-                        <!-- <asp:GridView ID="GridView1" runat="server">
-                         </asp:GridView>-->
+                        <ul class="actions">
+                            <li><input type="submit" class="special" value="Salvar" /></li>
+                        </ul>
                     </div>
                 </div>
-                <!--close site_content-->
-                <div>
-                    <a href="MenuProfessor.jsp" id="voltar">Voltar</a>
-                </div>
-                <footer>
-                    <a href="index.html">Home</a>  <a href=""></a><a href=""></a><a href=""></a><a href=""></a>
-                    
-                    <br />
-                    <br />
-
-                </footer>
-
-            </div>
-            <!--close main-->
-
+            </section>            
         </form>
     </body>
 

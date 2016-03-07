@@ -14,6 +14,8 @@ import javax.servlet.http.HttpSession;
 
 import hibernatePersistence.professor.Professor;
 import hibernatePersistence.professor.ProfessorDAO;
+import hibernatePersistence.aluno.Usuario;
+import hibernatePersistence.aluno.AlunoDAO;
 import hibernatePersistence.conexao.ConectarBanco;
 
 @WebServlet(name = "LoginProfessor", urlPatterns = {"/LoginProfessor"})
@@ -30,6 +32,7 @@ public class LoginProfessor extends HttpServlet
         String senha = request.getParameter("txtSenha"); //Pega a senha vinda do formulario
         System.out.println(siape);
         System.out.println(senha);
+      
         try
         {
             ProfessorDAO dao = new ProfessorDAO(); //cria uma instancia do DAO usuario
