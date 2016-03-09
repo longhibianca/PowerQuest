@@ -26,8 +26,8 @@ public class LoginAluno extends HttpServlet
         HttpSession session = request.getSession(); //obtem a sessao do usuario, caso exista
 
         Usuario user = null;
-        String matricula = request.getParameter("matricula"); // Pega o Login vindo do formulario
-        String senha_aluno = request.getParameter("senha_aluno"); //Pega a senha vinda do formulario
+        String matricula = request.getParameter("matricula"); // Pega o Login vindo do formulario da pag inicial
+        String senha_aluno = request.getParameter("senha_aluno"); //Pega a senha vinda do formulario da pag inicial
 
         try
         {
@@ -44,7 +44,7 @@ public class LoginAluno extends HttpServlet
         {
             //se o dao retornar um usuario, coloca o mesmo na sessao
             session.setAttribute("user", user);
-            request.getRequestDispatcher("Questionario.jsp").forward(request, response);
+            request.getRequestDispatcher("PaginaAluno.jsp").forward(request, response);
         }
         else
         {
