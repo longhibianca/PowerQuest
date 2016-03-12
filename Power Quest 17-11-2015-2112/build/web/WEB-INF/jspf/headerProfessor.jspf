@@ -13,6 +13,7 @@
         <li><a href="ExcluirDisciplina.jsp">Excluir disciplina</a></li>
         <li><a href="ExcluirConteudo.jsp">Excluir conteúdo</a></li>
         <li><a href="ExcluirPergunta.jsp">Excluir pergunta</a></li>
+        <li><a href="CadastroProfessor.jsp">Cadastro professor</a></li>
         <li><a href="Logout">Logout</a></li>
     </ul>
 </nav>

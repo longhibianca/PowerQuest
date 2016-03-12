@@ -29,7 +29,7 @@
             <nav id="nav">
                 <ul class="links">
                     <li><a href="PaginaInicial.jsp">Home</a></li>
-                    <li><a href="CadastroProfessor.jsp">Cadastro</a></li>
+                    <li><a href="CadastroAluno.jsp">Cadastro aluno</a></li>
                 </ul>
             </nav>
             <!-- Banner -->
