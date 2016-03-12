@@ -18,10 +18,7 @@
     </head>
     <body>
         <form method="post" action="ExcluirDisciplina">
-            <header id="header">
-                <h1><a href="PaginaInicial.jsp">PowerQuest</a></h1>
-                <!--<a href="#nav">Menu</a>-->
-            </header>
+            <%@ include file="/WEB-INF/jspf/headerProfessor.jspf" %>
             <!-- Main -->
             <section id="main" class="wrapper style1 special">
          <!--  <section id="four" class="wrapper style2 special">-->
@@ -43,7 +40,13 @@
                         </ul>
                     </div>
                 </div>
-            </section>            
+            </section>
+                                  <!-- Scripts -->
+            <script src="jquery.min.js"></script>
+            <script src="skel.min.js"></script>
+            <script src="util.js"></script>
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="main.js"></script>
         </form>
     </body>
 

@@ -70,11 +70,11 @@
                     <h2>Login</h2>
                     <p>Faça seu login aqui</p>
                 </header>
-                <form method="post" action="LoginProfessor">
+                <form method="post" action="Login">
                     <div class="container 75%">
                         <div class="row uniform 50%">
                             <div class="6u">
-                                <input name="txtSiape" placeholder="Identificador***" type="text" />
+                                <input name="txtId" placeholder="Matrícula" type="text" />
                             </div>
                             <div class="6u">
                                 <input name="txtSenha" placeholder="Senha" type="password" />

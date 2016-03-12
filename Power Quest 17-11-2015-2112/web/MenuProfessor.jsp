@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PowerQuest Menu Professor</title>
+        <title>PowerQuest - Menu Professor</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -18,22 +18,7 @@
     </head>
     <body>
         <form id="form1" runat="server">
-            <header id="header">
-                <h1><a href="PaginaInicial.jsp">PowerQuest</a></h1>
-                <a href="#nav">Menu</a>
-            </header>
-            <!-- nav -->
-            <nav id="nav">
-                <ul class="links">
-                    <li><a href="CadastroDisciplina.jsp">Cadastro de disciplinas</a></li>
-                    <li><a href="CadastroConteudo.jsp">Cadastro de conteúdos</a></li>
-                    <li><a href="CadastroPergunta.jsp">Cadastro de perguntas</a></li>
-                    <li><a href="ExcluirDisciplina.jsp">Excluir disciplina</a></li>
-                    <li><a href="ExcluirConteudo.jsp">Excluir conteúdo</a></li>
-                    <li><a href="ExcluirPergunta.jsp">Excluir pergunta</a></li>
-                    <li><a href="PaginaAluno.jsp">Página ALuno(só para teste)</a></li>
-                </ul>
-            </nav>
+            <%@ include file="/WEB-INF/jspf/headerProfessor.jspf" %>
             <!-- Main -->
             <section id="main" class="wrapper style1 special">
                 <!--  <section id="four" class="wrapper style2 special">-->

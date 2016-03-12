@@ -29,12 +29,8 @@
         <servlet-class>hibernatePersistence.conexao.OperacoesAluno</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>LoginProfessor</servlet-name>
-        <servlet-class>hibernatePersistence.conexao.LoginProfessor</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>LoginAluno</servlet-name>
-        <servlet-class>hibernatePersistence.conexao.LoginAluno</servlet-class>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>hibernatePersistence.conexao.Login</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>OperacoesDisciplina</servlet-name>
@@ -71,10 +67,6 @@
     <servlet-mapping>
         <servlet-name>OperacoesProfessor</servlet-name>
         <url-pattern>/OperacoesProfessor</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>LoginAluno</servlet-name>
-        <url-pattern>/LoginAluno</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>CadastroAluno</servlet-name>
