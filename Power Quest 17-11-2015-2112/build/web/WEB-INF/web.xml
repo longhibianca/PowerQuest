@@ -44,6 +44,10 @@
         <servlet-name>OperacoesPergunta</servlet-name>
         <servlet-class>hibernatePersistence.conexao.OperacoesPergunta</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>hibernatePersistence.conexao.Logout</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CadastroProfessor</servlet-name>
         <url-pattern>/CadastroProfessor</url-pattern>
@@ -87,6 +91,10 @@
     <servlet-mapping>
         <servlet-name>OperacoesPergunta</servlet-name>
         <url-pattern>/OperacoesPergunta</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
