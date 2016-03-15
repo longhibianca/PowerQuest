@@ -18,21 +18,7 @@
     </head>
     <body>
         <form id="form1" runat="server">
-            <header id="header">
-                <h1><a href="PaginaInicial.jsp">PowerQuest</a></h1>
-                <a href="#nav">Menu</a>
-            </header>
-            <!-- nav -->
-            <nav id="nav">
-              <!--  <ul class="links">
-                    <li><a href="CadastroDisciplina.jsp">Cadastro de disciplinas</a></li>
-                    <li><a href="CadastroConteudo.jsp">Cadastro de conteúdos</a></li>
-                    <li><a href="CadastroPergunta.jsp">Cadastro de perguntas</a></li>
-                    <li><a href="ExcluirDisciplina.jsp">Excluir disciplina</a></li>
-                    <li><a href="ExcluirConteudo.jsp">Excluir conteúdo</a></li>
-                    <li><a href="ExcluirPergunta.jsp">Excluir pergunta</a></li>
-                </ul>-->
-            </nav>
+            <%@ include file="/WEB-INF/jspf/headerAluno.jspf" %>
             <!-- Main -->
             <section id="main" class="wrapper style1 special">
                 <!--  <section id="four" class="wrapper style2 special">-->
