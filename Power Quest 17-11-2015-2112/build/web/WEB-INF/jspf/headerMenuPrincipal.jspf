@@ -1,0 +1,13 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<header id="header" > <!--class="alt"-->
+                <h1><a href="PaginaInicial.jsp">PowerQuest</a></h1>
+                <a href="#nav">Menu</a>
+            </header>
+            <!-- nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="PaginaInicial.jsp">Home</a></li>
+                    <li><a href="CadastroAluno.jsp">Cadastro Aluno</a></li>
+                </ul>
+            </nav>

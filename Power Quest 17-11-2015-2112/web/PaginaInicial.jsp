@@ -19,19 +19,7 @@
     <body class="landing">
         <form action="PagInicial.jsp">
             <!-- Header -->
-            <header id="header" class="alt">
-                <h1><a href="index.html">Bem-vindo(a)</a></h1>
-                <a href="#nav">
-                    Menu
-                </a>
-            </header>  
-            <!-- Nav -->
-            <nav id="nav">
-                <ul class="links">
-                    <li><a href="PaginaInicial.jsp">Home</a></li>
-                    <li><a href="CadastroAluno.jsp">Cadastro aluno</a></li>
-                </ul>
-            </nav>
+            <%@ include file="/WEB-INF/jspf/headerMenuPrincipal.jspf" %>
             <!-- Banner -->
             <section id="banner">
                 <i class="icon fa-diamond"></i>
